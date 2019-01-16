@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MW concept</title>
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+    <!-- particles -->
+    <div id="particles-js"></div>
+
+    <div id="overlay">
+
+
+        <!-- nav -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-3 mb-5 bg-white rounded">
+            <div class="container">
+                <a href="index.html"><img src="img/mw_logo.png" alt="logo"></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Kontakt</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- content -->
+        <div class="container">
+            <div class="jumbotron jumbotron-sm">
+
+                <div class="row">
+                    <div class="col-sm-12 col-lg-12">
+                        <h1 class="h1">
+                            Kontakt <small>napisz do mnie</small></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="well well-sm">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="name">
+                                            Imię i nazwisko</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Imię i nazwisko"
+                                            required="required" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">
+                                            Email </label>
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                            </span>
+                                            <input type="email" class="form-control" id="email" placeholder="podaj email"
+                                                required="required" /></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="subject">
+                                            Temat</label>
+                                        <select id="subject" name="subject" class="form-control" required="required">
+                                            <option value="na" selected="">Wybierz:</option>
+                                            <option value="general">Ogólny</option>
+                                            <option value="suggestions">Sugestie</option>
+                                            <option value="co-op">Współpraca</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="name">
+                                            Wiadomość</label>
+                                        <textarea name="message" id="message" class="form-control" rows="9" cols="25"
+                                            required="required" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn btn-light bg-light pull-right" id="btnContactUs">
+                                        Wyślij</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <form>
+                        <legend><span class="glyphicon glyphicon-globe"></span> Biuro</legend>
+                        <address>
+                            <strong>mw concept</strong><br>
+                            40-555, Brynowska 51<br>
+                            Katowice, Poland<br>
+                            <abbr title="Phone">
+                                tel:</abbr>
+                            (+48) 609-043-666
+                        </address>
+                        <address>
+                            <strong>Michał Wieja MW Concept</strong><br>
+                            <a href="mailto:#">mwieja84@gmail.com</a>
+                        </address>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- footer -->
+        <footer>
+            <div class="page-footer">
+                <div class="container">
+                    <div class="socials">
+                        <a href="http:\\www.facebook.com" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
+                        <a href="http:\\www.twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                        <a href="http:\\www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
+                    </div>
+                    <div class="copy">
+                        &copy mw concept 2019
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <!-- particles js -->
+    <script type="text/javascript" src="particles.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
+<!-- to do -->
+<!-- favicon -->

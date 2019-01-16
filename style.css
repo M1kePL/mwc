@@ -15,7 +15,6 @@
     bottom: 0;
     left: 0;
     z-index: 0;
-
 }
 
 #overlay {
@@ -34,7 +33,6 @@
     font-size: 1.7rem;
 }
 
-
 .left,
 .right {
     background-color: rgba(255, 255, 255, .8);
@@ -43,6 +41,10 @@
     height: 100%;
     width: 100%;
 
+}
+
+.carousel-caption {
+    background-color: #ddd
 }
 
 .page-footer {
@@ -79,4 +81,23 @@
 
 .fa-linkedin-in:hover {
     color: #0077B5;
+}
+
+/* contact */
+.jumbotron {
+    background: #fff;
+    /* color: #ddd; */
+}
+
+.jumbotron-sm {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.jumbotron small {
+    color: #aaa;
+}
+
+.h1 small {
+    font-size: 24px;
 }
